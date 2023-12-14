@@ -1,0 +1,11 @@
+#* -text
+
+#将扩展名为 .cs 的文本文件视为文本文件，并在检出时将换行符转换为 LF（Line Feed）格式， 
+#无论你是在 Windows 还是其他操作系统上进行操作。
+*.cs        text eol=lf diff=csharp
+*.shader    text eol=lf
+*.cginc     text eol=lf
+*.hlsl      text eol=lf
+*.compute   text eol=lf
+
+*.meta      text eol=lf
